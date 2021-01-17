@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cloudinary": "^1.23.0",
+    "underscore": "^1.12.0"
+  },
+  "name": "videotagging",
+  "version": "1.0.0",
+  "description": "Cloudinary video autotagging",
+  "main": "uploadVideo.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dawid Borycki"    
+}
