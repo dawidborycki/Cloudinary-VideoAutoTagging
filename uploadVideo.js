@@ -5,7 +5,7 @@ common.cloudinary.uploader.upload('./video/house.mp4', {
         categorization: 'google_video_tagging',
         auto_tagging: 0.5 
     },
-    function(error, result) {
+    (error, result) => {
         console.log(result, error) 
 
         // Display public id of the uploaded video
