@@ -18,7 +18,7 @@ cloudinary.config({
 ```javascript
 public_id = 'dosfm1nxpjkystb3uqtj';
 ```
-7. Run ```node videoUpload.js```. It will return an information about markers, e.g.:
+7. Run ```node getMarkers.js```. It will return an information about markers, e.g.:
 ```
 [
   { time: 0, text: 'kitchen' },
