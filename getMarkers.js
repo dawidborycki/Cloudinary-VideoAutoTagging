@@ -1,12 +1,12 @@
 var common = require('./common.js');
 var _ = require('underscore');
 
-public_id = 'dosfm1nxpjkystb3uqtj';
+public_id = '';
 
 common.cloudinary.api.resource(public_id, {resource_type: "video"}, (error, result) => {
     // Get categorization data
-    categorizationData = result['info']['categorization']['google_video_tagging']['data'];    
-
+    categorizationData = result['info']['categorization']['google_video_tagging']['data'];        
+    
     // Define rooms
     var rooms = ['kitchen', 'bedroom', 'living room'];
 

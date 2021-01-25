@@ -10,4 +10,5 @@ common.cloudinary.uploader.upload('./video/house.mp4', {
 
         // Display public id of the uploaded video
         console.log('Your public id is: ' + result['public_id']);
-    });
+    }
+);
