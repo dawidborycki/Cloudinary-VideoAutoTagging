@@ -4,7 +4,7 @@ A sample NodeJS project showing how to use Cloudinary API to upload a video, and
 # Instructions
 1. Sign up for Cloudinary account [here](https://cloudinary.com/users/register/free)
 2. Enable Google Automatic Video Tagging add-on
-3. Use common.js to provide your API credentials:
+3. Use cloudinary/common.js to provide your API credentials:
 ```javascript
 cloudinary.config({ 
     cloud_name: '', 
@@ -12,7 +12,7 @@ cloudinary.config({
     api_secret: '' 
 });
 ```
-4. Install dependencies (```npm install```)
+4. Go to **cloudinary** subfolder and install dependencies (```npm install```)
 5. Upload video with ```node videoUpload.js```. This will return public id of your video. 
 6. Copy the video id and paste it into ```getMarkers.js```:
 ```javascript
